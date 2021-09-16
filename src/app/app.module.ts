@@ -10,6 +10,7 @@ import { MaterialModule} from './material/material.module'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BuscarComponent } from './pages/buscar/buscar.component';
 import { EditarComponent } from './pages/editar/editar.component';
+import { Prueba1Component } from './pages/prueba1/prueba1.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EditarComponent } from './pages/editar/editar.component';
     LoginComponent,
     RegistroComponent,
     BuscarComponent,
-    EditarComponent
+    EditarComponent,
+    Prueba1Component
   ],
   imports: [
     BrowserModule,
